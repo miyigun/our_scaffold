@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 
@@ -31,19 +30,19 @@ class OurScaffold extends StatelessWidget {
             Container(
               width: MediaQuery.of(context).size.width,
               height: 50.0,
-              padding: EdgeInsets.all(5.0),
+              padding: const EdgeInsets.all(5.0),
               decoration: BoxDecoration(
                 border: Border.all(),
                 color: Colors.blue,
               ),
-              child: Text(
+              child: const Text(
                   'Title',
                 style: TextStyle(
                   fontSize: 30.0,
                   color: Colors.white
                 ),
             )),
-            Expanded(
+            const Expanded(
               child: Center(
                 child: Text(
                   'Hello World!',
